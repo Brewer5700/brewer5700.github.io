@@ -2,29 +2,25 @@
 <html>
     <head>
         <title>My Website</title>
-        <link rel="icon" type="image/x-icon" href="favicon.ico">
-        <link rel="stylesheet" type="text/css" href="styles.css"
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
-        <h1>This is my Website</h1>
-        <button id="darkModeToggle">Toggle Dark Mode</button>
+        <script src="script.js"></script>
+        <div class="header">
+            <div class="headerLogo">
+                <a href="http://brewer5700.xyz">
+                <img src="./images/profilepic.png">
+                </a>
+            </div>
 
-        <script>
-            const toggleButton = document.getElementById('darkModeToggle');
+            <button id="darkModeToggle">
+                <img src="./images/darkmodetoggle.png">
+            </button>
+        </div>
 
-            if (localStorage.getItem('theme') === 'dark') {
-                document.body.classList.add('dark-mode');
-            }
-
-            toggleButton.addEventListener('click', () => {
-                document.body.classList.toggle('dark-mode');
-
-                if (document.body.classList.contains('dark-mode')) {
-                    localStorage.setItem('theme', 'dark');
-                } else {
-                    localStorage.setItem('theme', 'light');
-                }
-            });
-        </script>
+        <div class="main">
+            <h1>This is my Website</h1>
+        </div>
     </body>
 </html>

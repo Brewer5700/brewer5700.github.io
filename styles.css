@@ -1,10 +1,43 @@
+/* Page-wide */
 body {
     background-color: white;
     color: black;
     transition: background-color 0.3s, color 0.3s;
 }
-
 body.dark-mode {
     background: #121212;
     color: #f1f1f1;
 }
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto auto;
+}
+.headerLogo img {
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header a {
+    text-decoration: none;
+}
+#darkModeToggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+#darkModeToggle img {
+    height: 50px;
+}
+
+/* Body Content */
