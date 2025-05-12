@@ -27,6 +27,24 @@ body.dark-mode {
 .header a {
     text-decoration: none;
 }
+.navBar {
+    background-color: #d6d6d6;
+    border-radius: 25px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navBar nav a {
+    color: black;
+    margin: 0px 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+.navBar nav a:hover {
+    color: #8ecae6;
+}
 #darkModeToggle {
     background: none;
     border: none;
