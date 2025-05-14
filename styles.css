@@ -54,11 +54,6 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
-body.dark-mode {
-    background: #121212;
-    color: #f1f1f1;
-}
-
 /* Header */
 .header {
     display: flex;
@@ -109,19 +104,6 @@ body.dark-mode {
     font-size: 1.2em;
 }
 
-/* Nav bar dark mode */
-body.dark-mode .navBar {
-    background-color: #232323;
-}
-
-body.dark-mode .navBar nav a {
-    color: #f1f1f1;
-}
-
-body.dark-mode .navBar nav a:hover{
-    color: #8ecae6;
-}
-
 #darkModeToggle {
     background: none;
     border: none;
@@ -156,4 +138,21 @@ h2 {
 
 p {
     font-size: 18px;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background: #121212;
+    color: #f1f1f1;
+}
+body.dark-mode .navBar {
+    background-color: #232323;
+}
+
+body.dark-mode .navBar nav a {
+    color: #f1f1f1;
+}
+
+body.dark-mode .navBar nav a:hover{
+    color: #8ecae6;
 }
