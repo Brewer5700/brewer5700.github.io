@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const toggleButton = document.getElementById("darkModeToggle");
+  const toggleButton = document.querySelector(".darkModeToggle");
 
   if (localStorage.getItem("theme") === "dark") {
     document.body.classList.add("dark-mode");
