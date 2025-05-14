@@ -50,8 +50,16 @@
 /* Page-wide */
 body {
     background-color: white;
-    color: black;
     transition: background-color 0.3s, color 0.3s;
+    color: black;
+}
+
+.link {
+    text-decoration: none;
+    color: #0000ff;
+}
+.link:visited {
+    color: #0000ff;
 }
 
 /* Header */
@@ -134,6 +142,10 @@ h1 {
 
 h2 {
     font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
 }
 
 p {
