@@ -96,10 +96,6 @@ body {
     transform: scale(1.1);
 }
 
-.header a {
-    text-decoration: none;
-}
-
 .navBar {
     background-color: var(--light-surface-color);
     border-radius: 25px;
@@ -108,14 +104,15 @@ body {
     transition: background-color 300ms ease;
 }
 
-.navBar nav a {
+.navBar a {
     color: black;
     margin: 0px 15px;
     font-size: 18px;
+    text-decoration: none;
     transition: color 300ms ease, font-size 200ms ease;
 }
 
-.navBar nav a:hover {
+.navBar a:hover {
     color: var(--hover-color);
     font-size: 1.2em;
 }
