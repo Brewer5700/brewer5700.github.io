@@ -165,10 +165,10 @@ body.dark-mode .navBar {
     background-color: var(--dark-surface-color);
 }
 
-body.dark-mode .navBar nav a {
+body.dark-mode .navBar a {
     color: var(--dark-text-color);
 }
 
-body.dark-mode .navBar nav a:hover{
+body.dark-mode .navBar a:hover{
     color: var(--hover-color);
 }
